@@ -1,0 +1,39 @@
+@import "https://fonts.googleapis.com/css?family=Inconsolata";
+html {
+  min-height: 100%;
+}
+
+/* Style for the error page container */
+
+
+/* Style for the terminal box */
+.terminal {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    padding: 20px !important;
+    text-align: center !important;
+    background: #1d1f20 !important;
+    color: #fff !important;
+    border: 1px solid #000 !important;
+    border-radius: 5px !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Style for the error code */
+.errorcode {
+    color: #ff5454 !important;
+}
+
+/* Style for the links */
+.output a {
+    color: #0077ff !important;
+    text-decoration: none !important;
+    transition: color 0.3s !important;
+}
+
+/* Style for the links on hover */
+.output a:hover {
+    color: #00aaff !important;
+}
